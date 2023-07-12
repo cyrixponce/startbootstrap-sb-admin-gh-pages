@@ -1,0 +1,58 @@
+body {
+  font-family: "Mulish", sans-serif !important;
+}
+.card {
+  border: none !important;
+  border-radius: 10%;
+}
+
+.overview-card {
+  padding: 0.5rem 1rem 5rem;
+  color: white;
+}
+.overview-card-title {
+  color: white;
+}
+.overview-card-number {
+  font-size: 1.8rem;
+}
+#total_patient {
+  background: linear-gradient(to right, rgb(53, 92, 125), rgb(68, 131, 185));
+}
+
+#available_staff {
+  background: linear-gradient(to right, rgb(114, 90, 122), rgb(149, 140, 152));
+}
+
+#available_treatment_cost {
+  background: linear-gradient(to right, rgb(255, 117, 130), rgb(255, 168, 176));
+}
+
+#available_room {
+  background: linear-gradient(to right, rgb(197, 109, 134), rgb(219, 165, 180));
+}
+
+.patient-card {
+  padding: 0.5rem 1rem 2.5rem;
+  height: 20vh !important;
+}
+.patient-card-bullet {
+  border-radius: 50%;
+  background-color: #93ff9d;
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+.patient-card-number {
+  font-size: 1.5rem;
+}
+
+.outpatient-card-bullet {
+  border-radius: 50%;
+  background-color: #fac26e;
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
